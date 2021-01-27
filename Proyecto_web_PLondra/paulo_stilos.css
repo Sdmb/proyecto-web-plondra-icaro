@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    font-size: 100px;
+}
+
+a[href^="https"]::before {
+    content: "🔗 ";
+  }
+  
+  a[href^="mailto"]::before {
+    content: "📧 ";
+  }
+  
+  a[href^="tel"]::before {
+    content: "📞 ";
+  }
+  
+  li {
+    margin-bottom: .5rem;
+  }
+  
